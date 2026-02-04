@@ -42,6 +42,7 @@
 
 
 .featured-item {
+    display: flex;
     border-style: solid;
     border-width: 2px;
     border-color: rgb(26, 22, 22);
@@ -50,9 +51,11 @@
 }
 
 .project-item{
+    display: flex;
+    flex-direction: column;
     border-style: solid;
     border-width: 2px;
-    border-color: border-color: rgb(26, 22, 22);
+    border-color: rgb(26, 22, 22);
     justify-content: center;
     align-items: center;
     margin: auto;
@@ -68,15 +71,18 @@
 
 
 .skills-auto-item {
+    display: flex;
+    flex-direction: column;
     border-style: solid;
     border-width: 1px;
-    border-color: border-color: rgb(26, 22, 22);
+    border-color: rgb(26, 22, 22);
     justify-content: center;
     align-items: center;
     margin: auto;
 }
 
 .nav-item {
+    display: flex;
     border-style: solid;
     border-width: 2px;
     border-color: rgb(26, 22, 22);
