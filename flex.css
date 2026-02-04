@@ -31,6 +31,15 @@
     border-color: rgb(0, 255, 51);
     flex-direction: row;
 }
+.flex-container3 {
+    display: flex;
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(105, 105, 105);
+    flex-direction: row;
+}
+
+
 .flex-item {
     border-style: solid;
     border-width: 2px;
@@ -40,6 +49,14 @@
     margin: auto;
 }
 
+.skills-auto-item {
+    border-style: solid;
+    border-width: 2px;
+    border-color: gray;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
 
 body {
     background-color: rgb (105, 105, 105);
