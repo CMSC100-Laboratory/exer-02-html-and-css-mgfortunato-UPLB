@@ -1,3 +1,10 @@
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+
 .featured-photo {
     display: flex;
     border-style: solid;
@@ -13,6 +20,12 @@
     border-color: rgb(105, 105, 105);
     flex-direction: row;
 }
+
+.logo_nav_bar img {
+    height: 100px; 
+    width: auto;
+}
+
 
 .logo_nav_bar {
     display: flex;
@@ -41,8 +54,14 @@
 }
 
 
+
+
+
+
+
 .featured-item {
     display: flex;
+    flex: 1;
     border-style: solid;
     border-width: 2px;
     border-color: rgb(26, 22, 22);
@@ -53,26 +72,23 @@
 .project-item{
     display: flex;
     flex-direction: column;
+    flex: 1;
+    min-width: 0;
+
     border-style: solid;
     border-width: 2px;
     border-color: rgb(26, 22, 22);
     justify-content: center;
     align-items: center;
-    margin: auto;
-}
-
-.project-pictures{
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-    height: 20%;
-    width: 20%;
+    margin: 5px;
+    padding: 10px;
 }
 
 
 .skills-auto-item {
     display: flex;
     flex-direction: column;
+    flex: 1;
     border-style: solid;
     border-width: 1px;
     border-color: rgb(26, 22, 22);
@@ -83,9 +99,16 @@
 
 .nav-item {
     display: flex;
+    flex: 1;
     border-style: solid;
     border-width: 2px;
     border-color: rgb(26, 22, 22);
     justify-content: center;
     align-items: center; 
+}
+
+
+
+.project-pictures{
+    margin: auto;
 }
