@@ -52,7 +52,7 @@
 .skills-auto-item {
     border-style: solid;
     border-width: 2px;
-    border-color: gray;
+    border-color: border-color: rgb(26, 22, 22);
     justify-content: center;
     align-items: center;
     margin: auto;
