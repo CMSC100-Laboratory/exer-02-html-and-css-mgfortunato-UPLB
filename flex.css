@@ -46,7 +46,7 @@
     border-color: blue;
     justify-content: center;
     align-items: center;
-    margin: auto;
+    
 }
 
 .skills-auto-item {
@@ -58,6 +58,4 @@
     margin: auto;
 }
 
-body {
-    background-color: rgb (105, 105, 105);
-}
+
