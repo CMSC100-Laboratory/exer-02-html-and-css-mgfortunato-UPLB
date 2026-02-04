@@ -193,3 +193,33 @@ body {
 .bio-content strong {
     color: #0056b3;
 }
+
+.site-footer{
+    background-color: white;
+    border-top: 1px solid #ccc;
+    margin-top: 60px;
+    padding: 40px 20px;
+}
+
+.footer-content{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 40px;
+}
+
+.footer-logo img {
+    height: 80px;
+    width: auto;
+    opacity: 0.8;
+}
+
+.footer-info p{
+    margin: 5px 0;
+    font-size: 0.95rem;
+    color: #555;
+}
+
