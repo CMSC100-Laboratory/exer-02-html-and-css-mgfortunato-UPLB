@@ -14,6 +14,14 @@
     flex-direction: row;
 }
 
+.logo_nav_bar {
+    display: flex;
+    border-style: solid;
+    border-width: 4px;
+    border-color: rgb(75, 0, 130);
+    flex-direction: row;
+}
+
 .flex-container2 {
     display: flex;
     border-style: solid;
