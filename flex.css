@@ -2,7 +2,7 @@
     display: flex;
     border-style: solid;
     border-width: 5px;
-    border-color: pink;
+    border-color: rgb(105, 105, 105);
     flex-direction: row;
 }
 
@@ -24,7 +24,7 @@
     align-items: center;
 }
 
-.flex-container2 {
+.previousProjects-container {
     display: flex;
     border-style: solid;
     border-width: 5px;
@@ -32,7 +32,7 @@
     flex-direction: row;
 }
 
-.flex-container3 {
+.skills-auto-container {
     display: flex;
     border-style: solid;
     border-width: 5px;
@@ -48,6 +48,16 @@
     justify-content: center;
     align-items: center; 
 }
+
+.project-item{
+    border-style: solid;
+    border-width: 2px;
+    border-color: border-color: rgb(26, 22, 22);
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
 
 .skills-auto-item {
     border-style: solid;
